@@ -1,0 +1,11 @@
+
+letter = input("please enter a letter: ")
+
+if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u": 
+  print ("You have inputted a letter which is a vowel")
+
+elif letter == "y" :
+  print ("You have inpputed the letter 'y', which is sometimes a vowel")
+
+else:
+  print ("This letter you have inputted is not a vowel")
