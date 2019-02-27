@@ -1,0 +1,23 @@
+shape = int(input("How many sides does your shape have?: "))
+name = ""
+
+if shape == 3:
+    print ("This is a triangle")
+elif shape == 4:
+  print ("This is a quadralateral")
+elif shape == 5:
+  print ("This is a pentagon")
+elif shape == 6:
+    print ("This is a hexagon")
+elif shape == 7:
+    print ("This is a septagon")
+elif shape == 8:
+    print ("This is a octagon")
+elif shape == 9:
+    print ("This is a nonagon")
+elif shape == 10: 
+    print ("This is a decagon")
+else:
+  print ("The program is not able to read what shape this is")
+
+
