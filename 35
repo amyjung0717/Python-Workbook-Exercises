@@ -1,0 +1,13 @@
+early_dog_age = 10.5 
+age = int(input("Please enter your age: "))
+
+if age > 2:
+    human_age = (age-2)
+    dog_age = (age - human_age) * early_dog_age + (human_age * 7)
+    print ("Your age in dog years is" , dog_age)
+elif age == "1" or "2":
+  dog_age = age * early_dog_age
+  print ("Your age in dog years is" , dog_age)
+else:
+  print ("Please insert a correct number")
+    
